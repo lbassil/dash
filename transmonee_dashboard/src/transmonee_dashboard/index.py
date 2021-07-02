@@ -22,7 +22,7 @@ urls = (
 # 'routes_pathname_prefix') and 'display' is a valid value for the `children`
 # keyword argument for a Dash component (ie a Dash Component or a string).
 nav_items = (
-    ("", html.Div([fa("fas fa-home"), "Home"])),
+    ("", html.Div([fa("fas fa-home"), "Homes"])),
     ("education", html.Div([fa("fas fa-book"), "Education"])),
     ("child-protection", html.Div([fa("fas fa-child"), "Child Protection"])),
     ("child-health", html.Div([fa("fas fa-heartbeat"), "Health and Nutrition"])),
