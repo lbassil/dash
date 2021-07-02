@@ -1,9 +1,8 @@
 import dash_html_components as html
-from transmonee_dashboard.pages import child_health
 
 from .app import app
 from .utils import DashRouter, DashNavBar
-from .pages import education, child_protection, home
+from .pages import education, child_protection, home, child_health
 from .components import fa
 
 
