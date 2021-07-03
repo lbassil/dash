@@ -98,7 +98,7 @@ indicators_dict = {
                 "HT_SH_XPD_OOPC_PC_CD",
                 "HT_INS_COV",
             ],
-            "default": "HT_INS_COV",
+            "default": "HT_SH_ACS_UNHC",
         },
         "AREA_2": {
             "graphs": {
@@ -152,7 +152,7 @@ indicators_dict = {
                 "HT_INS_COV",
             ],
             "default_graph": "line",
-            "default": "HT_INS_COV",
+            "default": "HT_SH_ACS_UNHC",
         },
     },
     "MNCH": {
@@ -160,13 +160,13 @@ indicators_dict = {
         "CARDS": [
             {
                 "name": "in Residential Care",
-                "indicator": "HT_SH_HIV_0014",
+                "indicator": "CME_MRY0T4",
                 "suffix": "Children",
             },
             # revise denominator: population children 0-17
             {
                 "name": "in Residential Care",
-                "indicator": "HT_SH_HIV_0014",
+                "indicator": "CME_MRY0T4",
                 # "denominator": "EDUNF_SAP_L1T3",
                 "suffix": "Percent of Children",
             },
@@ -212,6 +212,7 @@ indicators_dict = {
                 "HT_U5DEATH_INJU",
                 "MNCH_CSEC",
             ],
+            "default": "CME_MRY0T4",
         },
         "AREA_1": {
             "type": "bar",
@@ -301,7 +302,7 @@ indicators_dict = {
                 "MNCH_CSEC",
             ],
             "default_graph": "line",
-            "default": "MNCH_CSEC",
+            "default": "CME_MRY0T4",
         },
     },
     "IMMUNIZATION": {
@@ -314,7 +315,7 @@ indicators_dict = {
             },
             {
                 "name": "having DTP3 coverage according to WHO-UNICEF estimates",
-                "indicator": "HT_COVERAGE_DTP3",
+                "indicator": "HT_DIST80DTP3_P",
                 "suffix": "Percentage of Children",
             },
         ],
@@ -364,7 +365,7 @@ indicators_dict = {
                 "HT_DIST80DTP3_P",
                 "HT_COVERAGE_DTP3",
             ],
-            "default": "HT_COVERAGE_DTP3",
+            "default": "HT_SH_ACS_PCV3",
         },
         "AREA_2": {
             "graphs": {
@@ -512,7 +513,7 @@ indicators_dict = {
         },
     },
     "ADOLESCENTS": {
-        "NAME": "Adolescent health (including mental and reproductive health)",
+        "NAME": "Adolescent health",
         "CARDS": [
             {
                 "name": "committed against children during the year",
@@ -526,7 +527,7 @@ indicators_dict = {
             },
         ],
         "MAIN": {
-            "name": "Adolescent health",
+            "name": "Adolescent health (including mental and reproductive health)",
             "geo": "Geographic area",
             "options": dict(
                 lat="latitude",
@@ -628,7 +629,7 @@ indicators_dict = {
                 "HT_ADOL_LOW_SATS",
             ],
             "default_graph": "line",
-            "default": "HT_ADOL_LOW_SATS",
+            "default": "FT_SP_DYN_ADKL",
         },
     },
     "HIVAIDS": {
@@ -769,7 +770,7 @@ indicators_dict = {
                 "WS_PPS_S-OD",
                 "HT_NO_BTH_SHW_FLSH",
             ],
-            "default": "HT_NO_BTH_SHW_FLSH",
+            "default": "WS_PPL_W-SM",
         },
         "AREA_1": {
             "type": "bar",
@@ -787,7 +788,7 @@ indicators_dict = {
                 "WS_PPS_S-OD",
                 "HT_NO_BTH_SHW_FLSH",
             ],
-            "default": "HT_NO_BTH_SHW_FLSH",
+            "default": "WS_PPL_W-SM",
         },
         "AREA_2": {
             "graphs": {
@@ -820,7 +821,7 @@ indicators_dict = {
                 "HT_NO_BTH_SHW_FLSH",
             ],
             "default_graph": "line",
-            "default": "HT_NO_BTH_SHW_FLSH",
+            "default": "WS_PPL_W-SM",
         },
     },
 }
