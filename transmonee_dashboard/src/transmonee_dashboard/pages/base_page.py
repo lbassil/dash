@@ -51,7 +51,7 @@ px.defaults.color_discrete_sequence = [
 ]
 px.set_mapbox_access_token(mapbox_access_token)
 
-colours = ["primary", "success", "warning", "danger"]
+colours = ["primary", "success", "warning", "danger", "primary", "success", "warning", "danger"]
 AREA_KEYS = ["MAIN", "AREA_1", "AREA_2", "AREA_3", "AREA_4"]
 DEFAULT_LABELS = {"Geographic area": "Country", "TIME_PERIOD": "Year"}
 CARD_TEXT_STYLE = {"textAlign": "center", "color": "#0074D9"}
